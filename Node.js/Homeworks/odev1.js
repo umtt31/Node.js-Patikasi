@@ -1,0 +1,1 @@
+console.log(`Yaricapi ${process.argv.slice(2)} olan dairenin alani : ${Math.PI * Math.pow(parseInt(process.argv.slice(2)), 2)}`);
