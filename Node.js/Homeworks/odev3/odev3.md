@@ -1,4 +1,4 @@
-# Ödev 3 Daire Modüler Dosyası
+# Daire Modüler Dosyası
 
 Daire alan : circleArea ve daire çevre : circleCircumference fonksiyonları içeren ve consola sonuçları yazdıran circle.js dosyası oluşturunuz.
 module.exports yöntemi ile fonksiyonları oluştururken export ediniz.
