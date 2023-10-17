@@ -13,14 +13,11 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1>Man must explore, and this is exploration at its greatest</h1>
-              <h2 class="subheading">
-                Problems look mighty small from 150 miles up
-              </h2>
+              <h1><%= post.title %></h1>
               <span class="meta"
                 >Posted by
                 <a href="#">Start Bootstrap</a>
-                on August 24, 2019</span
+                on <%= post.dateCreated %></span
               >
             </div>
           </div>
@@ -36,11 +33,11 @@
             <h2 class="section-heading"><%= post.title %></h2>
 
             <p><%= post.detail %></p>
-            <a href="/posts/edit/<%= post._id %>" class="btn btn-secondary"
+            <a href="/post/edit/<%= post._id %>" class="btn btn-secondary"
               >UPDATE</a
             >
             <a
-              href="/posts/<%= post._id %>?_method=DELETE"
+              href="/post/<%= post._id %>?_method=DELETE"
               class="btn btn-danger"
               onclick="return confirm('Are You Sure ?');"
               >DELETE</a
